@@ -1,9 +1,7 @@
 import yfinance as yf
 import streamlit as st
 
-# st.write('Shown are the stock closing price and volume of',ticker_from_user,'!')
 
-# https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 #define the ticker symbol
 ticker_from_user = st.text_input("Enter the stock ticker: ")
 start_date_from_user = st.date_input("choose start date: ")
